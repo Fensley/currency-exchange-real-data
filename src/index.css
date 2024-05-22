@@ -1,0 +1,45 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  max-width: 700px;
+}
+main {
+  background-image: url(../public/Money\ income-bro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 700px;
+}
+section {
+  background-color: #92e3a9;
+  border-radius: 3px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+}
+input,
+select {
+  font-size: 20px;
+  padding: 5px;
+  margin: 2px;
+  border: none;
+  border-radius: 3px;
+}
+input:focus,
+select:focus {
+  outline: none;
+}
+/* not fully finished */
